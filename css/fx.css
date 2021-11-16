@@ -1,0 +1,97 @@
+/* transição de páginas */
+@keyframes transitionPage {
+    from {
+       opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Fx do texto na página principal */
+@keyframes fadeTop {
+    from {
+        opacity: 0;
+        position: relative;
+        top: 25px;
+    }
+    to {
+        opacity: 1;
+        position: relative;
+        top: 0;
+    }
+} 
+/* Abrir Menu Mobile */
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      width: 0%;
+    }
+    to {
+      opacity: 1;
+        width: 100%;
+    }
+}
+/* Fechar Menu Mobile */
+@keyframes slideOut {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0;
+    }
+}
+/* Fx do texto abrindo no Menu Mobile */
+@keyframes expandTextIn {
+    from {
+      opacity: 0;
+      margin-bottom: 100px;
+    }
+    to {
+      opacity: 1;
+      margin-bottom: 30px;
+    }
+}
+/* Fx do texto fechando no Menu Mobile */
+@keyframes expandTextOut{
+    from {
+      opacity: 1;
+      margin-bottom: 30px;
+    }
+    to {
+      opacity: 0;
+      margin-bottom: 100px;
+    }
+}
+/* Fx para as barras externas aos textos dos menus CONTATO e NOTICIAS, ARE DE ATUAÇÃO, ADVOGADOS, QUEM SOMOS */
+@keyframes slideBar {
+  from {
+    width: 0;
+  }
+  to {
+    width: 15rem;
+  }
+}
+@keyframes slideBarArea {
+  from {
+    width: 0;
+  }
+  to {
+    width: 400px;
+  }
+}
+@keyframes slideBarAdv {
+  from {
+    width: 0;
+  }
+  to {
+    width: 280px;
+  }
+}
+@keyframes slideBarQuem {
+  from {
+    width: 0;
+  }
+  to {
+    width: 315px;
+  }
+}
