@@ -189,7 +189,7 @@ section {
     height: auto;
     max-width: 950px;
     text-align: justify;
-    padding: 30px 20px 60px 20px;
+    padding: 60px 20px 60px 20px;
     box-sizing: border-box;
 }
 .title_atuacao {
@@ -201,7 +201,7 @@ section {
 }
 .title_atuacao h1{
     font-family: 'Anton', sans-serif; 
-    font-size: 50px;
+    font-size: 48px;
     color: rgb(77, 75, 75);
 }
 .box_atuacao {
